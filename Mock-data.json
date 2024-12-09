@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1500,
+    "productName": "lether Slping Messenger bag",
+    "discountPercentage": 10
+  },
+  {
+    "id": 2,
+    "image": "https://images.pexels.com/photos/5706268/pexels-photo-5706268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1400,
+    "productName": "Handbags",
+    "discountPercentage": 15
+  },
+  {
+    "id": 3,
+    "image": "https://images.pexels.com/photos/11031668/pexels-photo-11031668.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1200,
+    "productName": "Zip Wallet",
+    "discountPercentage": 10
+  },
+  {
+    "id": 4,
+    "image": "https://images.pexels.com/photos/12444594/pexels-photo-12444594.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1800,
+    "productName": "Lether button wallet",
+    "discountPercentage": 20
+  },
+  {
+    "id": 5,
+    "image": "https://images.pexels.com/photos/2452345/pexels-photo-2452345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1400,
+    "productName": "Carrying Backpack",
+    "discountPercentage": 20
+  },
+  {
+    "id": 6,
+    "image": "https://images.pexels.com/photos/18601501/pexels-photo-18601501/free-photo-of-woman-holding-a-black-bag.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1300,
+    "productName": "Black bag",
+    "discountPercentage": 15
+  },
+  {
+    "id": 7,
+    "image": "https://images.pexels.com/photos/6649429/pexels-photo-6649429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1500,
+    "productName": " Holding Brown Leather Bag",
+    "discountPercentage": 10
+  },
+  {
+    "id": 8,
+    "image": "https://images.pexels.com/photos/8743973/pexels-photo-8743973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "price": 1400,
+    "productName": "white Lether bag",
+    "discountPercentage": 25
+  },
+  {
+    "id": 9,
+    "image": "https://via.placeholder.com/150",
+    "price": 450,
+    "productName": "Sample Product 9",
+    "discountPercentage": 50
+  },
+  {
+    "image": "https://via.placeholder.com/200",
+    "price": "500",
+    "productName": "sample 11",
+    "discountPercentage": "15",
+    "id": 10
+  },
+  {
+    "image": "https://via.placeholder.com/200",
+    "price": 199.99,
+    "productName": "Updated Item Name",
+    "discountPercentage": "15",
+    "id": 11
+  },
+  {
+    "image": "https://via.placeholder.com/200",
+    "price": "500",
+    "productName": "sample 11",
+    "discountPercentage": "15",
+    "id": 12
+  },
+  {
+    "image": "https://via.placeholder.com/200",
+    "price": "500",
+    "productName": "sample 11",
+    "discountPercentage": "15",
+    "id": 13
+  }
+]

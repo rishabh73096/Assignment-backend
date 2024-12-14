@@ -4,8 +4,8 @@ import { createItem, deleteItem, editItem, getAllItems } from "../controllers/it
 const itemrouter = express.Router();
 
 itemrouter.get("/items",getAllItems)
-itemrouter.get("/createitem",createItem)
-itemrouter.get("/edit",editItem)
-itemrouter.get("/delete",deleteItem)
+itemrouter.post("/items",createItem)
+itemrouter.put("/edit:id",editItem)
+itemrouter.delete("/delete:id",deleteItem)
 
 export default itemrouter

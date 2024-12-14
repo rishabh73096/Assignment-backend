@@ -2,7 +2,6 @@ import item from "../models/item.model.js"
 
 // Get all items
 export const getAllItems = async (req, res) => {
-   res.json({status:"pending"})
    try {
        const items = await item.find();
        res.status(200).json(items);
@@ -15,7 +14,7 @@ export const getAllItems = async (req, res) => {
 export const createItem = async (req, res) => {
 
    const { productName, image, discountedPercentage, price } = req.body;
-    console.log(req.body)
+   
    try {
        const newItem = new item({
            productName,
@@ -29,7 +28,6 @@ export const createItem = async (req, res) => {
    } catch (error) {
        res.status(500).json({ message: "Failed to create item", error });
    }
-   res.json({status:"pending"})
 };
 
 // Edit an item

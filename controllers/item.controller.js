@@ -24,7 +24,7 @@ export const createItem = async (req, res) => {
        });
 
        await newItem.save();
-       res.status(201).json(newItem);
+       res.status(201).json({ message: "Item added successfully" });
    } catch (error) {
        res.status(500).json({ message: "Failed to create item", error });
    }
@@ -39,7 +39,7 @@ export const editItem = async (req, res) => {
        const updatedItem = await item.findByIdAndUpdate(
            id,
            { productName, image, discountedPercentage, price },
-           { new: true } // Return the updated document
+           { new: true } 
        );
 
        if (!updatedItem) {
